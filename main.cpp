@@ -350,22 +350,43 @@ int main() {
     Software* j4 = new Juegos("Super Mario Bros", "Nintendo", 0, 3000);
     Software* j5 = new Juegos("Minecraft", "Mojang", 0, 2500);
     Software* j6 = new Juegos("FIFA 22", "EA Sports", 7, 4500);
-    Software* j7 = new Juegos("Among Us", "InnerSloth", 10, 1000);
+    Software* j7 = new Juegos("Outlast", "Red Barrels", 18, 1000);
     Software* j8 = new Juegos("The Sims 4", "Electronic Arts", 12, 3500);
     Software* j9 = new Juegos("Civilization VI", "Firaxis Games", 12, 6000);
-    Software* j10 = new Juegos("The Legend of Zelda", "Nintendo", 0, 4500);
+    Software* j10 = new Juegos("NBA 2K20", "EA Sports", 0, 4500);
+    Software* j11 = new Juegos("Plantas vs Zombies", "PopCap Games", 0, 3500);
+    Software* j12 = new Juegos("Red Dead Redemption 2", "Rockstar Games", 18, 4000);
+    Software* j13 = new Juegos("Cyberpunk 2077", "CD Projekt", 18, 4500);
+    Software* j14 = new Juegos("Battlefied 1", "Electronic Arts", 18, 3000);
+    Software* j15 = new Juegos("The Crew 2", "Ubisoft", 10, 4500);
+    Software* j16 = new Juegos("GTA V", "Rockstar Games", 18, 3500);
+    Software* j17 = new Juegos("Terraria", "Re-Logic", 0, 3000);
+    Software* j18 = new Juegos("Resident Evil 4", "Capcom", 16, 2500);
+    Software* j19 = new Juegos("Mortal Kombat 11", "NetherRealm Studios", 18, 4000);
+    Software* j20 = new Juegos("Forza Horizon 5", "XBOX Studio", 10, 4500);
 
     // Agregar géneros a los juegos
-    static_cast<Juegos*>(j1)->agregarGenero("FPS");
-    static_cast<Juegos*>(j2)->agregarGenero("Baile");
+    static_cast<Juegos*>(j1)->agregarGenero("Pelea");
+    static_cast<Juegos*>(j2)->agregarGenero("Simulación");
     static_cast<Juegos*>(j3)->agregarGenero("FPS");
     static_cast<Juegos*>(j4)->agregarGenero("Aventura");
     static_cast<Juegos*>(j5)->agregarGenero("Sandbox");
     static_cast<Juegos*>(j6)->agregarGenero("Deportes");
-    static_cast<Juegos*>(j7)->agregarGenero("Misterio");
+    static_cast<Juegos*>(j7)->agregarGenero("Terror");
     static_cast<Juegos*>(j8)->agregarGenero("Simulación");
     static_cast<Juegos*>(j9)->agregarGenero("Estrategia");
-    static_cast<Juegos*>(j10)->agregarGenero("Aventura");
+    static_cast<Juegos*>(j10)->agregarGenero("Deporte");
+    static_cast<Juegos*>(j11)->agregarGenero("Estretegia");
+    static_cast<Juegos*>(j12)->agregarGenero("Aventura");
+    static_cast<Juegos*>(j13)->agregarGenero("RPG");
+    static_cast<Juegos*>(j14)->agregarGenero("FPS");
+    static_cast<Juegos*>(j15)->agregarGenero("Carrera");
+    static_cast<Juegos*>(j16)->agregarGenero("RPG");
+    static_cast<Juegos*>(j17)->agregarGenero("SandBox");
+    static_cast<Juegos*>(j18)->agregarGenero("Terror");
+    static_cast<Juegos*>(j19)->agregarGenero("Pelea");
+    static_cast<Juegos*>(j20)->agregarGenero("Carrera");
+    
 
     // Agregar los juegos al sistema
     sistema.agregarSoftware(j1);
