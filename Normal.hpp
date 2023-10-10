@@ -6,19 +6,19 @@
 #include <vector>
 #include <unordered_map>
 
-#include "Usuario.hpp"
+#include "Usuario.hpp" // se incluye para poder usar la clase Usuario
 
 using namespace std;
 
-class Normal : public Usuario {
+class Normal : public Usuario { // Normal hereda de Usuario
 private:
-    string correo;
+    string correo; 
 
 public:
     Normal(const string& nombreUsuario, const string& contrasena, int edad, const string& correo)
-        : Usuario(nombreUsuario, contrasena, edad), correo(correo) {}
+        : Usuario(nombreUsuario, contrasena, edad), correo(correo) {}// constructor
 
-    void mostrarInfo() const override {
+    void mostrarInfo() const override { // muestra la informacion del normal
         cout << "Tipo de usuario: Normal" << endl;
         cout << "Correo: " << correo << endl;
         cout << "Dinero disponible: $" << getDinero() << endl;

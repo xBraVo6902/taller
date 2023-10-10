@@ -6,16 +6,16 @@
 #include <vector>
 #include <unordered_map>
 
-#include "Usuario.hpp"
+#include "Usuario.hpp" // se incluye para poder usar la clase Usuario
 
 using namespace std;
 
-
+// Administrador hereda de Usuario
 class Administrador : public Usuario {
 private:
-    string correo;
+    string correo; // correo del administrador
 
-public:
+public: // constructor
     Administrador(const string& nombreUsuario, const string& contrasena, int edad, const string& correo)
         : Usuario(nombreUsuario, contrasena, edad), correo(correo) {}
 
