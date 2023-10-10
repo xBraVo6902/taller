@@ -324,6 +324,11 @@ int main() {
     Usuario* u3 = new Normal("Carla", "qrst", 25, "carla@example.com");
     Usuario* u4 = new Normal("Eduardo", "uvwx", 30, "eduardo@example.com");
     Usuario* u5 = new Normal("Isabel", "yzab", 22, "isabel@example.com");
+    Usuario* u6 = new Normal("Carlos", "12345", 28, "carlos@example.com");
+    Usuario* u7 = new Normal("AnaMaria", "abcdef", 24, "anamaria@example.com");
+    Usuario* u8 = new Normal("Javier", "qwerty", 22, "javier@example.com");
+    Usuario* u9 = new Normal("Mariana", "abc123", 30, "mariana@example.com");
+    Usuario* u10 = new Normal("Lucia", "456789", 26, "lucia@example.com");
 
     // Agregar usuarios al sistema
     sistema.agregarUsuario(admin);
