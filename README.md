@@ -1,4 +1,4 @@
-# taller - Camilo Bravo
+# Taller 1 - Camilo Bravo
 
 Usuarios:
 Usuario admin = Nombre de usuario: "admin", contaseña: "admin", edad: 21, correo: "admin@example.com" (Administrador)
